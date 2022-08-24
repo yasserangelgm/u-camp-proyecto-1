@@ -1,6 +1,6 @@
 # u-camp-proyecto-1
 # U-Camp Fullstack Web Development Bootcamp Project 1 Repository
-### Repositorio del Proyecto 1 del Bootcamp Desarrollo Web Fullstack U-Camp
+#### Repositorio del Proyecto 1 del Bootcamp Desarrollo Web Fullstack U-Camp
 ## 1. Introducción
 Para el Proyecto 1 del BootCamp de Desarrollo Web Full Stack decidí hacer una landing page sobre una compañía de cursos online. Esta página web contiene los elementos solicitados para esta entrega:
 
