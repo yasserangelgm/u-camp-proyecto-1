@@ -1,107 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Web Development Courses</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/main.css" />
-  <title>Web Development Courses</title>
-</head>
-
-<body>
-  <header class="page-header">
-    <div id="logo">
-      <img src="/img/Isotipo.png" alt="Web Development Logo" />
-      <i>Web Development Courses</i>
-    </div>
-    <div class="mobile-menu" id="mobile-menu">
-      <div class="hamburguer">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+  <body>
+    <header class="page-header">
+      <div id="logo">
+        <img src="/img/Isotipo.png" alt="Web Development Logo" />
+        <i>Web Development Courses</i>
       </div>
-    </div>
-    <nav class="navigation">
-      <ul>
-        <li class="nav-item">CURSOS</li>
-        <li class="nav-item">QUIENES SOMOS</li>
-        <li class="nav-item">CONTACTO</li>
-        <li class="nav-item">
-          <button>INICIAR SESION</button>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <!-- Jumbotron -->
-    <section class="jumbotron">
-      <div class="hero">
-        <h1>
-          Amplía tus oportunidades laborales formándote en tecnologías web
-        </h1>
-        <p class="hero-description">
-          Aprende desarrollo web con nuestros cursos en línea
-        </p>
-        <form class="hero-form">
-          <div class="input">
-            <input type="email" id="email" placeholder="Escribe tu e-mail" />
-            <button type="button">Enviar</button>
-          </div>
-
-          <p class="hero-description">
-            Suscríbete y recibe nuestra últimas noticias
-          </p>
-        </form>
-      </div>
-      <div class="background"></div>
-    </section>
-    <!-- Courses -->
-    <section class="courses">
-      <h2>Cursos Destacados</h2>
-      <div class="card-course">
-        <div class="card-image" id="mern">
+      <div class="mobile-menu" id="mobile-menu">
+        <div class="hamburguer">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
         </div>
-        <h3 class="course-title">Curso Full Stack Mern</h3>
-        <p class="course-description">Aprende a crear una aplicación completa de E-commerce con React y Next JS</p>
-        <footer class="course-footer">
-          <div class="profile"><img src="/img/profile.jpg" alt="Image profile"></div>
-          <p>$499.00</p>
-        </footer>
       </div>
-      <div class="card-course">
-        <div class="card-image" id="mern"></div>
-        <h3 class="course-title">Curso Full Stack Mern</h3>
-        <p class="course-description">Aprende a crear una aplicación completa de E-commerce con React y Next JS</p>
-        <footer class="course-footer">
-          <div class="profile">
-            <img src="/img/profile.jpg" alt="Image profile">
-          </div>
-          <p>$499.00</p>
-        </footer>
-      </div>
-      <div class="card-course">
-        <div class="card-image" id="mern"></div>
-        <h3 class="course-title">Curso Full Stack Mern</h3>
-        <p class="course-description">Aprende a crear una aplicación completa de E-commerce con React y Next JS</p>
-        <footer class="course-footer">
-          <div class="profile">
-            <img src="/img/profile.jpg" alt="Image profile">
-          </div>
-          <p>$499.00</p>
-        </footer>
-      </div>
-    </section>
-    <!-- Recent Launch -->
-    <section class="recent-launch"></section>
-    <!-- Learning Experience -->
-    <section class="learnig-experience"></section>
-  </main>
-  <footer class="page-footer"></footer>
-</body>
-<script src="/js/script.js"></script>
+      <nav class="navigation">
+        <ul>
+          <li class="nav-item">CURSOS</li>
+          <li class="nav-item">QUIENES SOMOS</li>
+          <li class="nav-item">CONTACTO</li>
+          <li class="nav-item">
+            <button>INICIAR SESION</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Jumbotron -->
+      <section class="jumbotron">
+        <div class="hero">
+          <h1>
+            Amplía tus oportunidades laborales formándote en tecnologías web
+          </h1>
+          <p class="hero-description">
+            Aprende desarrollo web con nuestros cursos en línea
+          </p>
+          <form class="hero-form">
+            <div class="input">
+              <input type="email" id="email" placeholder="Escribe tu e-mail" />
+              <button type="button">Enviar</button>
+            </div>
 
+            <p class="form-description">
+              Suscríbete y recibe nuestra últimas noticias
+            </p>
+          </form>
+        </div>
+        <div class="background"></div>
+      </section>
+      <!-- Courses -->
+      <section class="courses">
+        <h2>Cursos Destacados</h2>
+        <div class="card-container">
+          <div class="card-course">
+            <div class="card-image" id="mern"></div>
+            <h3 class="course-title">Curso Full Stack Mern</h3>
+            <p class="course-description">
+              Aprende a crear una aplicación completa de E-commerce con React y
+              Next JS
+            </p>
+            <footer class="course-footer">
+              <div class="profile">
+                <img src="/img/profile.jpg" alt="Image profile" /><span
+                  >Yasser Angel</span
+                >
+              </div>
+              <p>$1,499.00</p>
+            </footer>
+          </div>
+          <div class="card-course">
+            <div class="card-image" id="react"></div>
+            <h3 class="course-title">Curso de React</h3>
+            <p class="course-description">
+              Aprende a crear aplicaciones web con React
+            </p>
+            <footer class="course-footer">
+              <div class="profile">
+                <img src="/img/profile.jpg" alt="Image profile" /><span
+                  >Yasser Angel</span
+                >
+              </div>
+              <p>$499.00</p>
+            </footer>
+          </div>
+          <div class="card-course">
+            <div class="card-image" id="js"></div>
+            <h3 class="course-title">Curso de Javascript</h3>
+            <p class="course-description">
+              Domina el lenguaje Javascript desde 0 a experto
+            </p>
+            <footer class="course-footer">
+              <div class="profile">
+                <img src="/img/profile.jpg" alt="Image profile" />
+                <span>Yasser Angel</span>
+              </div>
+              <p>$499.00</p>
+            </footer>
+          </div>
+        </div>
+      </section>
+      <!-- Recent Launch -->
+      <section class="recent-launch"></section>
+      <!-- Learning Experience -->
+      <section class="learnig-experience"></section>
+    </main>
+    <footer class="page-footer"></footer>
+  </body>
+  <script src="/js/script.js"></script>
 </html>

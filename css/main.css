@@ -336,76 +336,199 @@ button:hover {
     width: 35%;
     padding: 1px;
   }
-
-  /*  body {
-    background-color: darkorange;
-  } */
 }
 
-
-.courses{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #ffffff;
+.courses {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
 }
 
-.courses h2{
-    margin: 10px auto;
-    color: #0b1325;
+.courses h2 {
+  margin: 10px auto;
+  color: #0b1325;
+  font-weight: 700;
 }
 
-.card-course{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 400px;
-    border: 1px solid black;
+.card-course {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  /* border: 1px solid black; */
 }
 
-.card-image{
-    height: 200px;
-    width: 100%;
+.card-image {
+  height: 200px;
+  width: 100%;
 }
 
-.card-image#mern{
-
-    background-image: url('/img/mern.jpg');
-    background-size: cover;
-    background-position: center center;
+.card-image {
+  background-size: cover;
+  background-position: center center;
+}
+.card-image#mern {
+  background-image: url("/img/mern.jpg");
+}
+.card-image#react {
+  background-image: url("/img/react.png");
+}
+.card-image#js {
+  background-image: url("/img/javascript.jfif");
+}
+.course-title {
+  margin: 10px auto;
+  color: #0b1325;
+  text-align: center;
 }
 
-.course-title{
-    margin: 10px auto;
-    color: #0b1325;
-    text-align: center;
+.course-description {
+  margin: 10px auto;
+  color: #0b1325;
+  text-align: center;
 }
 
-.course-description{
-    margin: 10px auto;
-    color: #0b1325;
-    text-align: center;
-}
-
-.course-footer{
-    margin: 12px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 95%;
+.course-footer {
+  margin: 12px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
 }
 
 .profile {
-    height: 50px;
-    width: 50px;
-   
-    }
+  display: flex;
+  height: 40px;
+  width: 180px;
+  align-items: center;
+}
 
-    .profile img{
-        width: 100%;
-        border-radius: 50%;
-    }
+.profile img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .courses h2 {
+    font-size: 38px;
+  }
+
+  .card-course {
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+  }
+  .card-image {
+    height: 350px;
+  }
+  .course-title {
+    font-size: 28px;
+  }
+
+  .course-description {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .card-course {
+    flex-basis: calc(33.33% - 15px);
+    height: 500px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  /*  body {
+    background-color: coral;
+  } */
+  .mobile-menu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    position: static;
+    height: auto;
+    width: 50%;
+    background-color: transparent;
+  }
+
+  .navigation ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation ul li {
+    padding: 0;
+    border: none;
+  }
+  .navigation ul li button {
+    padding: 8px 20px;
+    border: none;
+  }
+  .jumbotron {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+  }
+  .hero {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .background {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .hero h1 {
+    margin-top: 70px;
+    font-size: 48px;
+  }
+
+  .hero-description {
+    font-size: 20px;
+  }
+  .form-description {
+    font-size: 18px;
+    color: #dee5eb;
+    font-weight: 500;
+  }
+  .hero .input {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero .input #email {
+    width: 75%;
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  .hero .input button {
+    width: 25%;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .card-course {
+    flex-basis: calc(33.33% - 15px);
+    height: 500px;
+  }
+}
 /* Footer */
