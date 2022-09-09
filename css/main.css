@@ -969,6 +969,8 @@ a:hover {
   .hero {
     grid-area: 1 / 1 / 2 / 3;
     z-index: 3;
+    background: rgb(11, 19, 37);
+    background: linear-gradient(90deg, rgba(11, 19, 37, 1) 0%, rgba(11, 19, 37, 0.8995973389355743) 75%, rgba(11, 19, 37, 0) 90%);
   }
 
   .background {
