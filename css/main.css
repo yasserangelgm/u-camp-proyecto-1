@@ -221,7 +221,7 @@ a:hover {
 
 .hero {
   grid-area: 1 / 1 / 2 / 2;
-  padding: 0 15px;
+  
   color: var(--main-light-font-color);
 }
 
@@ -988,7 +988,7 @@ a:hover {
   }
 
   .container {
-    width: 70%;
+    max-width: 1200px;
   }
 
   .hero {

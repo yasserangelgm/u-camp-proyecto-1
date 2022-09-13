@@ -1,53 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="/css/main.css" />
-    <title>Web Development Courses</title>
-  </head>
 
-  <body>
-    <header class="page-header">
-      <div id="logo">
-        <img src="/img/Isotipo.png" alt="Web Development Logo" />
-        <i>Web Development Courses</i>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <title>Web Development Courses</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <div id="logo">
+      <img src="/img/Isotipo.png" alt="Web Development Logo" />
+      <i>Web Development Courses</i>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <div class="hamburguer">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
       </div>
-      <div class="mobile-menu" id="mobile-menu">
-        <div class="hamburguer">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
-      </div>
-      <nav class="navigation">
-        <ul>
-          <li class="nav-item"><a href="#courses">CURSOS</a></li>
-          <li class="nav-item"><a href="#about">QUIENES SOMOS</a></li>
-          <li class="nav-item"><a href="#contact">CONTACTO</a></li>
-          <li class="nav-item">
-            <button>INICIAR SESION</button>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <!-- Jumbotron -->
-      <div class="container">
+    </div>
+    <nav class="navigation">
+      <ul>
+        <li class="nav-item"><a href="#courses">CURSOS</a></li>
+        <li class="nav-item"><a href="#about">QUIENES SOMOS</a></li>
+        <li class="nav-item"><a href="#contact">CONTACTO</a></li>
+        <li class="nav-item">
+          <button>INICIAR SESION</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Jumbotron -->
+    <div class="container">
       <section class="jumbotron">
         <div class="hero">
           <h1>
@@ -70,127 +64,129 @@
         <div class="background"></div>
       </section>
     </div>
-    </main>
-    <!-- Courses -->
-    <section class="courses" id="courses">
-      <h2>Cursos Destacados</h2>
-      <div class="card-container">
-        <div class="card-course">
-          <div class="card-image" id="mern"></div>
-          <h3 class="course-title">Curso Full Stack Mern</h3>
-          <p class="course-description">
-            Aprende a crear una aplicación completa de E-commerce con React y
-            Next JS
-          </p>
-          <footer class="course-footer">
-            <div class="profile">
-              <img src="/img/profile.jpg" alt="Image profile" /><span
-                >Yasser Angel</span
-              >
-            </div>
-            <p>$1,499.00</p>
-          </footer>
+  </main>
+  <!-- Courses -->
+  <section id="courses">
+    <div class="container">
+      <div class="courses">
+        <h2>Cursos Destacados</h2>
+        <div class="card-container">
+          <div class="card-course">
+            <div class="card-image" id="mern"></div>
+            <h3 class="course-title">Curso Full Stack Mern</h3>
+            <p class="course-description">
+              Aprende a crear una aplicación completa de E-commerce con React y
+              Next JS
+            </p>
+            <footer class="course-footer">
+              <div class="profile">
+                <img src="/img/profile.jpg" alt="Image profile" /><span>Yasser Angel</span>
+              </div>
+              <p>$1,499.00</p>
+            </footer>
+          </div>
+          <div class="card-course">
+            <div class="card-image" id="react"></div>
+            <h3 class="course-title">Curso de React</h3>
+            <p class="course-description">
+              Aprende a crear aplicaciones web con React
+            </p>
+            <footer class="course-footer">
+              <div class="profile">
+                <img src="/img/profile.jpg" alt="Image profile" /><span>Yasser Angel</span>
+              </div>
+              <p>$499.00</p>
+            </footer>
+          </div>
+          <div class="card-course">
+            <div class="card-image" id="js"></div>
+            <h3 class="course-title">Curso de Javascript</h3>
+            <p class="course-description">
+              Domina el lenguaje Javascript desde 0 a experto
+            </p>
+            <footer class="course-footer">
+              <div class="profile">
+                <img src="/img/profile.jpg" alt="Image profile" />
+                <span>Yasser Angel</span>
+              </div>
+              <p>$499.00</p>
+            </footer>
+          </div>
         </div>
-        <div class="card-course">
-          <div class="card-image" id="react"></div>
-          <h3 class="course-title">Curso de React</h3>
-          <p class="course-description">
-            Aprende a crear aplicaciones web con React
-          </p>
-          <footer class="course-footer">
-            <div class="profile">
-              <img src="/img/profile.jpg" alt="Image profile" /><span
-                >Yasser Angel</span
-              >
-            </div>
-            <p>$499.00</p>
-          </footer>
-        </div>
-        <div class="card-course">
-          <div class="card-image" id="js"></div>
-          <h3 class="course-title">Curso de Javascript</h3>
-          <p class="course-description">
-            Domina el lenguaje Javascript desde 0 a experto
-          </p>
-          <footer class="course-footer">
-            <div class="profile">
-              <img src="/img/profile.jpg" alt="Image profile" />
-              <span>Yasser Angel</span>
-            </div>
-            <p>$499.00</p>
-          </footer>
-        </div>
+
       </div>
-    </section>
-    <!-- Recent Launch -->
-    <section class="recent-launch">
-      <h2>Nuevo Lanzamiento</h2>
-      <div class="video-container">
-        <div class="video-responsive">
-          <iframe src="https://drive.google.com/file/d/1yjrxaKTwoFVTNnAsgMLaLwbQZvVWWsH0/preview"></iframe>
-        </div>
+    </div>
+  </section>
+  <!-- Recent Launch -->
+  <section class="recent-launch">
+    <h2>Nuevo Lanzamiento</h2>
+    <div class="video-container">
+      <div class="video-responsive">
+        <iframe src="https://drive.google.com/file/d/1yjrxaKTwoFVTNnAsgMLaLwbQZvVWWsH0/preview"></iframe>
       </div>
-    </section>
-    <!-- Learning Experience -->
-    <section class="learnig-experience" >
-      <div class="learning-content">
-        <div class="learning-experience-image">
-          <img src="/img/transforma.jpg" alt="" />
-        </div>
-        <div class="learnig-experience-items" id="about">
-          <h2>Transforma tu vida mediante la formación</h2>
-          <ul class="learning-experience-item-list">
-            <li>Cursos impartidos por expertos en nuevas tecnologías</li>
-            <li>Diplomas de certificación e insignias digitales</li>
-            <li>Clases prácticas, claras y con ejemplos reales</li>
-            <li>Acceso a los cursos 24/7 y de por vida</li>
-            <li>Contacta con tus profesores y otros estudiantes</li>
-            <li>Contamos con los mejores precios del mercado</li>
+    </div>
+  </section>
+  <!-- Learning Experience -->
+  <section class="learnig-experience">
+    <div class="learning-content">
+      <div class="learning-experience-image">
+        <img src="/img/transforma.jpg" alt="" />
+      </div>
+      <div class="learnig-experience-items" id="about">
+        <h2>Transforma tu vida mediante la formación</h2>
+        <ul class="learning-experience-item-list">
+          <li>Cursos impartidos por expertos en nuevas tecnologías</li>
+          <li>Diplomas de certificación e insignias digitales</li>
+          <li>Clases prácticas, claras y con ejemplos reales</li>
+          <li>Acceso a los cursos 24/7 y de por vida</li>
+          <li>Contacta con tus profesores y otros estudiantes</li>
+          <li>Contamos con los mejores precios del mercado</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="social-icons">
+      <h3>Visita nuestras redes</h3>
+      <div class="icons-container">
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </div>
+    <div class="footer-content-wraper">
+      <div class="footer-content">
+        <h3>Cursos</h3>
+        <div class="footer-content-list">
+          <ul>
+            <li>Catálogo</li>
           </ul>
         </div>
       </div>
-    </section>
+      <div class="footer-content">
+        <h3>Conócenos</h3>
+        <div class="footer-content-list">
+          <ul>
+            <li>Acerca de</li>
+            <li>Blog</li>
+            <li>Prensa</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content">
+        <h3>Legal</h3>
+        <div class="footer-content-list">
+          <ul>
+            <li>Términos</li>
+            <li>Privacidad</li>
+          </ul>
+        </div>
+      </div>
+  </footer>
+</body>
+<script src="/js/script.js"></script>
 
-    <footer class="page-footer">
-      <div class="social-icons">
-        <h3>Visita nuestras redes</h3>
-        <div class="icons-container">
-          <i class="fa-brands fa-youtube"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
-        </div>
-      </div>
-      <div class="footer-content-wraper">
-        <div class="footer-content">
-          <h3>Cursos</h3>
-          <div class="footer-content-list">
-            <ul>
-              <li>Catálogo</li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-content">
-          <h3>Conócenos</h3>
-          <div class="footer-content-list">
-            <ul>
-              <li>Acerca de</li>
-              <li>Blog</li>
-              <li>Prensa</li>
-              <li>FAQ</li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-content">
-          <h3>Legal</h3>
-          <div class="footer-content-list">
-            <ul>
-              <li>Términos</li>
-              <li>Privacidad</li>
-            </ul>
-          </div>
-      </div>
-    </footer>
-  </body>
-  <script src="/js/script.js"></script>
 </html>
