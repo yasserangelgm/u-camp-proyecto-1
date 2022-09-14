@@ -589,6 +589,7 @@ a:hover {
   }
 
   .jumbotron {
+    padding: 3rem 0;
     display: grid;
     grid-template-columns: 3fr 2fr 3fr;
     grid-template-rows: 1fr;
@@ -786,6 +787,7 @@ a:hover {
   }
 
   .jumbotron {
+    padding: 3rem 0;
     display: grid;
     grid-template-columns: 3fr 2fr 3fr;
     grid-template-rows: 1fr;
@@ -1002,6 +1004,7 @@ a:hover {
   }
 
   .jumbotron {
+    padding: 3.5rem 0;
     display: grid;
     grid-template-columns: 3fr 2fr 3fr;
     grid-template-rows: 1fr;
