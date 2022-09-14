@@ -285,10 +285,7 @@ a:hover {
 }
 
 .courses h2 {
-  margin: 3rem auto;
-  font-weight: 900;
   color: var(--main-light-font-color);
-  font-size: 1.5rem;
 }
 
 .card-course {
@@ -467,6 +464,9 @@ a:hover {
 /* Media Queries */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  h2 {
+    font-size: 1.5rem;
+  }
   .navigation ul li {
     padding: 20px 0;
   }
@@ -502,10 +502,6 @@ a:hover {
     font-size: 13px;
     color: #dee5eb;
     font-weight: 500;
-  }
-
-  .courses h2 {
-    font-size: 38px;
   }
 
   .card-course {
@@ -580,6 +576,9 @@ a:hover {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  h2 {
+    font-size: 2rem;
+  }
   .navigation {
     width: 50%;
     height: auto;
@@ -749,6 +748,11 @@ a:hover {
   /*  body {
     background-color: coral;
   } */
+
+  h2 {
+    font-size: 2rem;
+  }
+
   .mobile-menu {
     display: none;
   }
@@ -927,6 +931,9 @@ a:hover {
 }
 
 @media (min-width: 1281px) {
+  h2 {
+    font-size: 2rem;
+  }
   .hamburguer {
     display: none;
   }
