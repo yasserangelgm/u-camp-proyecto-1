@@ -347,21 +347,26 @@ a:hover {
 }
 
 .recent-launch {
-  background-color: var(--main-light-bg-color);
   color: var(--main-dark-font-color);
   height: fit-content;
   width: 100%;
 }
-
+.recent-launch .container {
+  background-color: var(--main-light-bg-color);
+}
 .recent-launch h2 {
   margin: 0 auto;
   text-align: center;
   padding: 20px 0;
 }
 
-.learning-experience {
-  background-color: var(--main-light-bg-color);
+.learnig-experience {
   color: var(--main-dark-font-color);
+  background-color: var(--main-light-bg-color) !important;
+  width: 100%;
+}
+.learning-experience .container {
+  background-color: var(--main-light-bg-color) !important;
 }
 
 .learning-content {
@@ -1046,6 +1051,10 @@ a:hover {
     box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .recent-launch {
+    background-color: var(--main-light-bg-color);
   }
 
   .learning-content {
